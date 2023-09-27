@@ -1,7 +1,7 @@
 {
   "name": "@mc/react-multiples",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --mode=development --port 8600",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env.analyze=true",
     "lint": "eslint src --ext js",
